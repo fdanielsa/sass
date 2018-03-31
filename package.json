@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdanielsa/sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fdanielsa/sass/issues"
+  },
+  "homepage": "https://github.com/fdanielsa/sass#readme",
+  "description": "",
+  "devDependencies": {
+    "gulp-sass": "^3.2.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0"
+  }
+}

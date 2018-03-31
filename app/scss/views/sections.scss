@@ -1,0 +1,13 @@
+.section {
+	background-color: grey;
+	&#about {
+		background-color: #fff;
+		@include on-device($tablet) {
+			background-color: pink;
+		}
+		@include on-device($desktop){
+			background-color: green;
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+}
+
+html {
+	background-color: red;
+	@include on-device($desktop){
+		background-color: var(--bg-color);
+  	}
+}
